@@ -36,3 +36,12 @@ Usage: perl import_file_volume.pl -t <token> -p <project_name> -v <volume_name> 
 Example: perl import_file_volume.pl -t  ef6a1...das6 -p zhangb1/develop-project -v zhangb1/task_test_bucket2 test.bam test.bam
 
 ```
+
+## export file to S3 bucket
+
+```
+Usage: perl export_file_to_s3.pl -t <token> -p <project_name> -v <volume_name>  <file_name_cavatica>
+
+perl export_file_to_s3.pl -t ef...ec6 -p zhangb1/develop-project -v zhangb1/test_cavatica_wgs test.bam
+
+```
