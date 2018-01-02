@@ -26,7 +26,7 @@ use REST::Client;
 
 my $host = 'https://cavatica-api.sbgenomics.com/v2';
 
-my $des="s3://$bucket/$prefix";
+my $des="s3://$bucket/$prefix/";
 
 my %request_body_map = (
 		"name" =>"$volume",
