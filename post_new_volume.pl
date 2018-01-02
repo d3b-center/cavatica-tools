@@ -27,6 +27,7 @@ my $host = 'https://cavatica-api.sbgenomics.com/v2';
 
 my %request_body_map = (
 		"name" =>"$volume",
+                "description" => "$bucket",
 		"service" => {
 			"type" =>"S3",
 			"bucket" => "$bucket",
